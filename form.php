@@ -1,6 +1,6 @@
 <?php
 if (isset($_GET['message'])) {
-	$message = $_GET['message'];
+	$message = htmlspecialchars($_GET['message'], ENT_QUOTES);
 } else {
 	$message = '何か入力してください';
 }
