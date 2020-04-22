@@ -12,7 +12,6 @@ if (isset($_GET['message'])) {
 <title>git_study</title>
 </head>
 <body>
-<h1>フォーマットに文を入力すると、下に表示されます</h1>
 <form action="form.php" method="get">
 <textarea name="message" rows="4" cols="40"></textarea>
 <input type="submit">
